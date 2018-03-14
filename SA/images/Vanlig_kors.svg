@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3mm"
+   height="7mm"
+   viewBox="0 0 3 7"
+   version="1.1"
+   id="svg19818"
+   sodipodi:docname="Vanlig_kors.svg"
+   inkscape:export-filename="/home/krzysiek/Documents/pdf/SA/images/Vanlig_kors.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <defs
+     id="defs19812" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="51.031122"
+     inkscape:cy="-16.798611"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata19815">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-290)">
+    <path
+       d="m 1.6662327,292.09214 c 0.20074,0.35596 0.28822,0.63077 0.28822,0.88583 0,0.10654 -0.007,0.2346 -0.0201,0.39582 l -0.30868,3.30517 h -0.12736 l -0.30833,-3.30517 c -0.0137,-0.16122 -0.0201,-0.28928 -0.0201,-0.39582 0,-0.25506 0.0868,-0.52987 0.28857,-0.88583 l -1.33491,0.16793 v -0.5902 l 1.28093,0.14781 -0.21449,-1.42204 h 0.74437 l -0.21485,1.42204 1.28165,-0.14781 v 0.5902 z"
+       style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       id="path1887"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,10 +1,11 @@
 @import './fonts';
 
-$border-color: #d3d3d3;
+$border-color: #000;
 $background-color: #fff;
 $text-color: #000;
 
 .container {
+  align-items: flex-start;
   display: flex;
   justify-content: center;
   margin: 30px auto;
@@ -13,6 +14,7 @@ $text-color: #000;
 
 .canvas {
   margin: 0 20px;
+  border-bottom: 1px solid $border-color;
 }
 
 .death-notice {
@@ -27,9 +29,6 @@ $text-color: #000;
   }
 
   .death-notice-icon {
-    font-family: 'Dodsfall';
-    font-size: 32pt;
-    line-height: 32pt;
     margin-bottom: 1.6mm;
   }
 
@@ -39,15 +38,16 @@ $text-color: #000;
   .death-notice-signature,
   .death-notice-small-signature,
   .death-notice-ceremony {
-    font-family: 'Tiempos Text Regular';
-    font-size: 9pt;
-    line-height: 10pt;
+    font-family: 'Swift LT Std';
+    font-size: 7.714pt;
+    line-height: 9pt;
     padding: 0 2.5%;
   }
 
   .death-notice-title {
-    font-family: 'Tiempos Headline';
-    font-size: 14pt;
+    font-family: 'Swift LT Std';
+    font-size: 11,57pt;
+    font-weight: bold;
     line-height: 14pt;
     padding: 0 7.5%;
   }
@@ -57,27 +57,38 @@ $text-color: #000;
   }
 
   .death-notice-title,
-  .death-notice-birth-at {
-    margin-bottom: .6mm;
+ {
+    margin-bottom: 0;
   }
 
+  .death-notice-birth-at,
   .death-notice-death-at,
   .death-notice-signature,
   .death-notice-small-signature,
   .death-notice-ceremony,
+  .death-notice-thumnail,
   .death-notice-short-obituary {
-    margin-bottom: 1.2mm;
+    margin-bottom: 1.4mm;
   }
 
   .death-notice-short-obituary {
     font-family: 'Tiempos Text Italic';
-    font-size: 9pt;
+    font-size: 8pt;
     font-style: italic;
-    line-height: 10pt;
+    font-weight: normal;
+    line-height: 9pt;
   }
 
-  .death-notice-small-signature {
-    font-size: 7pt;
+  .death-notice-signature {
+    font-weight: bold;
+  }
+
+  .death-notice-thumnail {
+    border: 1px solid $border-color;
+    height: 22mm;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18mm;
   }
 
 }
