@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+  font-family: 'Times LT Std';
+  src: url("a3bd9139303ab71942adc45937ae3e19.eot");
+  src: url("a3bd9139303ab71942adc45937ae3e19.eot?#iefix") format("embedded-opentype"), url("7aa5dbe2718a8a2598a4f1c95d512026.woff2") format("woff2"), url("51bc7c5b9a82a1fe742e471e9d841828.woff") format("woff"), url("d9bd1b749f188531cd062f87bbdc6c57.svg#TimesLTStd-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'New Century Schoolbook LT Std';
+  src: url("b53b06e8fa788ba4f9ef0299678f08b3.eot");
+  src: url("b53b06e8fa788ba4f9ef0299678f08b3.eot?#iefix") format("embedded-opentype"), url("701dc993012ed6c7870ae49499464785.woff2") format("woff2"), url("1c038e53315b985eb060cf531f89d34e.woff") format("woff"), url("bacbc4cd421f7d1b17b997a5c0a7217e.svg#NewCenturySchlbkLTStd-Bd") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'New Century Schoolbook LT Std';
+  src: url("33fe4cd516f0e6e73b3e4c555d7c7433.eot");
+  src: url("33fe4cd516f0e6e73b3e4c555d7c7433.eot?#iefix") format("embedded-opentype"), url("7e12bb208ac4308a2880d12ec66deb07.woff2") format("woff2"), url("17b9c2374767594923b44e3a7af32106.woff") format("woff"), url("2ae8f69a6deb3bd364e69785d18b55ed.svg#NewCenturySchlbkLTStd-It") format("svg");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'New Century Schoolbook LT Std';
+  src: url("0007bfbb4878a0bc4fddf8f41c6d4487.eot");
+  src: url("0007bfbb4878a0bc4fddf8f41c6d4487.eot?#iefix") format("embedded-opentype"), url("ea4e19dae25847d73333f0f49685d388.woff2") format("woff2"), url("0817afce00f2142701b1612e24a656cb.woff") format("woff"), url("2eb78cce6402841960e269aa4a0b268a.svg#NewCenturySchlbkLTStd-Roman") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+.container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  width: 1024px; }
+
+.canvas {
+  border: 1px solid #000;
+  height: auto;
+  margin: 0 20px; }
+
+.death-notice {
+  background: #fff;
+  box-sizing: border-box;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  max-width: 38mm;
+  padding-bottom: 2mm;
+  padding-top: 1mm;
+  width: 38mm; }
+  .death-notice * {
+    text-align: center; }
+  .death-notice .death-notice-icon {
+    margin-bottom: 1.6mm; }
+  .death-notice .death-notice-top-text,
+  .death-notice .death-notice-birth-at,
+  .death-notice .death-notice-death-at,
+  .death-notice .death-notice-signature,
+  .death-notice .death-notice-short-obituary,
+  .death-notice .death-notice-ceremony {
+    font-family: 'New Century Schoolbook LT Std';
+    font-size: 9pt;
+    line-height: 11pt;
+    padding: 0 1.8mm; }
+  .death-notice strong {
+    font-weight: bold; }
+  .death-notice .row {
+    display: flex;
+    flex: row;
+    width: 100%; }
+    .death-notice .row .half-column {
+      width: 19mm; }
+      .death-notice .row .half-column.half-column-left {
+        text-align: left; }
+      .death-notice .row .half-column.half-column-right {
+        text-align: right; }
+  .death-notice .death-notice-title {
+    font-family: 'Times LT Std';
+    font-size: 16pt;
+    line-height: 17pt;
+    padding: 0 2.85mm; }
+  .death-notice .death-notice-death-at,
+  .death-notice .death-notice-top-text,
+  .death-notice .death-notice-short-obituary {
+    margin-bottom: .5mm; }
+  .death-notice .death-notice-short-obituary {
+    font-style: italic;
+    line-height: 10pt;
+    padding: 0 3mm; }
+  .death-notice .death-notice-ceremony {
+    line-height: 9.5pt;
+    padding-top: .5mm; }

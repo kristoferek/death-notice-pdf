@@ -1,0 +1,83 @@
+@import './fonts';
+
+$border-color: #d3d3d3;
+$background-color: #fff;
+$text-color: #000;
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  width: 1024px;
+}
+
+.canvas {
+  margin: 0 20px;
+}
+
+.death-notice {
+  background: $background-color;
+  color: $text-color;
+  height: auto;
+  max-width: 38mm;
+  width: 38mm;
+
+  & * {
+    text-align: center;
+  }
+
+  .death-notice-icon {
+    font-family: 'Dodsfall';
+    font-size: 32pt;
+    line-height: 32pt;
+    margin-bottom: 1.6mm;
+  }
+
+  .death-notice-top-text,
+  .death-notice-birth-at,
+  .death-notice-death-at,
+  .death-notice-signature,
+  .death-notice-small-signature,
+  .death-notice-ceremony {
+    font-family: 'Tiempos Text Regular';
+    font-size: 9pt;
+    line-height: 10pt;
+    padding: 0 2.5%;
+  }
+
+  .death-notice-title {
+    font-family: 'Tiempos Headline';
+    font-size: 14pt;
+    line-height: 14pt;
+    padding: 0 7.5%;
+  }
+
+  .death-notice-top-text {
+    margin-bottom: 1.6mm;
+  }
+
+  .death-notice-title,
+  .death-notice-birth-at {
+    margin-bottom: .6mm;
+  }
+
+  .death-notice-death-at,
+  .death-notice-signature,
+  .death-notice-small-signature,
+  .death-notice-ceremony,
+  .death-notice-short-obituary {
+    margin-bottom: 1.2mm;
+  }
+
+  .death-notice-short-obituary {
+    font-family: 'Tiempos Text Italic';
+    font-size: 9pt;
+    font-style: italic;
+    line-height: 10pt;
+  }
+
+  .death-notice-small-signature {
+    font-size: 7pt;
+  }
+
+}

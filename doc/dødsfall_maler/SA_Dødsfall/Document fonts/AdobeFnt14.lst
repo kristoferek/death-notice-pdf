@@ -1,0 +1,66 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SwiftLTStd-Bold
+FamilyName:Swift LT Std
+StyleName:Bold
+MenuName:Swift LT Std
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Swift LT Std Bold
+WritingScript:Roman
+OutlineFileName:\SwiftLTStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:45844
+FileModTime:1512478385
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SwiftLTStd-Italic
+FamilyName:Swift LT Std
+StyleName:Italic
+MenuName:Swift LT Std
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Swift LT Std Italic
+WritingScript:Roman
+OutlineFileName:\SwiftLTStd-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:45624
+FileModTime:1513675886
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SwiftLTStd-Regular
+FamilyName:Swift LT Std
+StyleName:Regular
+MenuName:Swift LT Std
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Swift LT Std
+WritingScript:Roman
+OutlineFileName:\SwiftLTStd-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:42200
+FileModTime:1512478326
+%EndFont
+

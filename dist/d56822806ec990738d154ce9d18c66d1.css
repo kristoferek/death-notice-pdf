@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+  font-family: 'Dodsfall';
+  src: url("628c966b008b12ea63a76217adad0d49.eot");
+  src: url("628c966b008b12ea63a76217adad0d49.eot?#iefix") format("embedded-opentype"), url("642cc0e0fd47f4a95bd328a835c84a1f.woff2") format("woff2"), url("a6ec0e8f70c8b3bbe701feaed978af9e.woff") format("woff"), url("e7b7218ed16e293fffcbd39107b4e7f7.svg#Dodsfall-regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Tiempos Text Italic';
+  src: url("6f25b37250ef11a91bea6d0025c10be8.eot");
+  src: url("6f25b37250ef11a91bea6d0025c10be8.eot?#iefix") format("embedded-opentype"), url("4e4955d0b443be5942b5db156011b3ec.woff2") format("woff2"), url("aae1d996e237808c4b01aa7135b80bd3.woff") format("woff"), url("d4896d4c4228796cb7f89708ca5f31e8.svg#TiemposText-RegularItalic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Tiempos Text';
+  src: url("d20f660225fdc0f37c08cb1bf11cc7ff.eot");
+  src: url("d20f660225fdc0f37c08cb1bf11cc7ff.eot?#iefix") format("embedded-opentype"), url("dd0dff046065a4e1bde14655017fdbc1.woff2") format("woff2"), url("f48f5cd1af5287646a92fee2434f6549.woff") format("woff"), url("f99e5fbf0938fe9f52e49427a8d76a55.svg#TiemposText-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url("2e7e432b8f3f1be753722687e3347322.eot");
+  src: url("2e7e432b8f3f1be753722687e3347322.eot?#iefix") format("embedded-opentype"), url("a590c8c75ec800e620a23c2872bc75e7.woff2") format("woff2"), url("6a950d971af99c0f526b5ac1ba9b0892.woff") format("woff"), url("178f2ac0e064e0bd3e5a2f1435b0afe8.svg#TiemposHeadline-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  width: 1024px; }
+
+.canvas {
+  border: 1px solid #d3d3d3;
+  margin: 0 20px;
+  padding: 1px; }
+
+.death-notice {
+  background: #fff;
+  color: #000;
+  height: auto;
+  max-width: 38mm;
+  width: 38mm; }
+  .death-notice * {
+    text-align: center; }
+  .death-notice .death-notice-icon {
+    font-family: 'Dodsfall';
+    font-size: 32pt;
+    line-height: 32pt;
+    margin-bottom: 1.6mm; }
+  .death-notice .death-notice-top-text,
+  .death-notice .death-notice-birth-at,
+  .death-notice .death-notice-death-at,
+  .death-notice .death-notice-signature,
+  .death-notice .death-notice-small-signature,
+  .death-notice .death-notice-ceremony {
+    font-family: 'Tiempos Text Regular';
+    font-size: 9pt;
+    line-height: 10pt;
+    padding: 0 2.5%; }
+  .death-notice .death-notice-title {
+    font-family: 'Tiempos Headline';
+    font-size: 14pt;
+    line-height: 14pt;
+    padding: 0 7.5%; }
+  .death-notice .death-notice-top-text {
+    margin-bottom: 1.6mm; }
+  .death-notice .death-notice-title,
+  .death-notice .death-notice-birth-at {
+    margin-bottom: .6mm; }
+  .death-notice .death-notice-death-at,
+  .death-notice .death-notice-signature,
+  .death-notice .death-notice-small-signature,
+  .death-notice .death-notice-ceremony,
+  .death-notice .death-notice-short-obituary {
+    margin-bottom: 1.2mm; }
+  .death-notice .death-notice-short-obituary {
+    font-family: 'Tiempos Text Italic';
+    font-size: 9pt;
+    font-style: italic;
+    line-height: 10pt; }
+  .death-notice .death-notice-small-signature {
+    font-size: 7pt; }

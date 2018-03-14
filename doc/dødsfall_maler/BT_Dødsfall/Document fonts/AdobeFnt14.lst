@@ -1,0 +1,129 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-BdCn
+FamilyName:Helvetica Neue LT Std
+StyleName:77 Bold Condensed
+MenuName:HelveticaNeueLT Std Cn
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:Helvetica Neue LT Std 77 Bold Condensed
+WritingScript:Roman
+OutlineFileName:\HelveticaNeueLTStd-BdCn.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:31172
+FileModTime:1512478426
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TiemposText-Regular
+FamilyName:Tiempos Text
+StyleName:Regular
+MenuName:Tiempos Text Regular
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Tiempos Text
+WritingScript:Roman
+OutlineFileName:\TiemposText-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:92800
+FileModTime:1518009475
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TiemposHeadline-Bold
+FamilyName:Tiempos Headline
+StyleName:Bold
+MenuName:Tiempos Headline Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Tiempos Headline Bold
+WritingScript:Roman
+OutlineFileName:\TiemposHeadline-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:59784
+FileModTime:1512478352
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Dodfall-regular
+FamilyName:Dodfall font
+StyleName:dodsfall symboler
+MenuName:Dodfall font
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Dodfall font
+WritingScript:Roman
+OutlineFileName:\Dodfall-Bold.ttf
+DataFormat:sfntData
+FileLength:248752
+FileModTime:1512478140
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaNeueLTStd-Cn
+FamilyName:Helvetica Neue LT Std
+StyleName:57 Condensed
+MenuName:HelveticaNeueLT Std Cn
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Helvetica Neue LT Std 57 Condensed
+WritingScript:Roman
+OutlineFileName:\HelveticaNeueLTStd-Cn.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:30500
+FileModTime:1512478245
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:TiemposText-RegularItalic
+FamilyName:Tiempos Text
+StyleName:Regular Italic
+MenuName:Tiempos Text Regular
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Tiempos Text Regular Italic
+WritingScript:Roman
+OutlineFileName:\TiemposText-RegularItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:96440
+FileModTime:1512478289
+%EndFont
+

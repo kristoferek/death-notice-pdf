@@ -1,0 +1,100 @@
+@import './fonts';
+
+$border-color: #000;
+$background-color: #fff;
+$text-color: #000;
+
+.container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  width: 1024px;
+}
+
+.canvas {
+  border: 1px solid $border-color;
+  height: auto;
+  margin: 0 20px;
+}
+
+.death-notice {
+  background: $background-color;
+  box-sizing: border-box;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  max-width: 38mm;
+  padding-bottom: 2mm;
+  padding-top: 1mm;
+  width: 38mm;
+
+  & * {
+    text-align: center;
+  }
+
+  .death-notice-icon {
+    margin-bottom: 1.6mm;
+  }
+
+  .death-notice-top-text,
+  .death-notice-birth-at,
+  .death-notice-death-at,
+  .death-notice-signature,
+  .death-notice-short-obituary,
+  .death-notice-ceremony {
+    font-family: 'New Century Schoolbook LT Std';
+    font-size: 9pt;
+    line-height: 11pt;
+    padding: 0 1.8mm;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  .row {
+    display: flex;
+    flex: row;
+    width: 100%;
+
+    .half-column {
+      width: 19mm;
+
+      &.half-column-left {
+        text-align: left;
+      }
+
+      &.half-column-right {
+        text-align: right;
+      }
+    }
+  }
+
+  .death-notice-title {
+    font-family: 'Times LT Std';
+    font-size: 16pt;
+    line-height: 17pt;
+    padding: 0 2.85mm;
+  }
+
+  .death-notice-death-at,
+  .death-notice-top-text,
+  .death-notice-short-obituary {
+    margin-bottom: .5mm;
+  }
+
+  .death-notice-short-obituary {
+    font-style: italic;
+    line-height: 10pt;
+    padding: 0 3mm;
+  }
+
+  .death-notice-ceremony {
+    line-height: 9.5pt;
+    padding-top: .5mm;
+  }
+
+}
