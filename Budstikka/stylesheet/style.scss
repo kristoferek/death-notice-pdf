@@ -1,0 +1,88 @@
+@import './fonts/stylesheet.css';
+
+$border-color: #000;
+$background-color: #fff;
+$text-color: #000;
+
+.container {
+  align-content: flex-start;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  width: 1024px;
+}
+
+.canvas {
+  background: $background-color;
+  height: auto;
+  max-width: 46mm;
+  width: 46mm;
+}
+
+.death-notice {
+  border: .4mm solid $border-color;
+  height: auto;
+  padding: 2mm;
+
+
+  .death-notice-icon {
+    height: 6mm;
+    text-align: center;
+
+    img {
+      height: 6mm;
+      width: auto;
+    }
+  }
+
+  .death-notice-birth-at,
+  .death-notice-ceremony,
+  .death-notice-death-at,
+  .death-notice-short-obituary,
+  .death-notice-signature,
+  .death-notice-small-signature,
+  .death-notice-short-obituary,
+  .death-notice-top-text,
+  .death-notice-title {
+    color: $text-color;
+    font-family: 'Times LT Std';
+    font-size: 9pt;
+    line-height: 10pt;
+    padding-top: 4pt;
+    text-align: center;
+  }
+
+  .death-notice-top-text {
+    padding-top: 2pt;
+  }
+
+  .death-notice-title {
+    font-size: 16pt;
+    font-weight: bold;
+    line-height: 17pt;
+  }
+
+  .death-notice-short-obituary {
+    font-style: italic;
+  }
+
+
+  .death-notice-title,
+  .death-notice-birth-at {
+    margin-bottom: .6mm;
+  }
+
+  .death-notice-death-at,
+  .death-notice-signature,
+  .death-notice-small-signature,
+  .death-notice-ceremony,
+  .death-notice-short-obituary {
+    margin-bottom: 1.2mm;
+  }
+
+
+  .death-notice-small-signature {
+    font-size: 7pt;
+  }
+
+}

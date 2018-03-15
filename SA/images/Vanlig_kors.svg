@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="3mm"
-   height="7mm"
-   viewBox="0 0 3 7"
+   width="3.2mm"
+   height="6.6589999mm"
+   viewBox="0 0 3.2 6.6589999"
    version="1.1"
    id="svg19818"
    sodipodi:docname="Vanlig_kors.svg"
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="51.031122"
-     inkscape:cy="-16.798611"
+     inkscape:zoom="22.4"
+     inkscape:cx="13.432616"
+     inkscape:cy="15.214899"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,11 +55,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-290)">
+     transform="translate(0,-290.341)">
     <path
-       d="m 1.6662327,292.09214 c 0.20074,0.35596 0.28822,0.63077 0.28822,0.88583 0,0.10654 -0.007,0.2346 -0.0201,0.39582 l -0.30868,3.30517 h -0.12736 l -0.30833,-3.30517 c -0.0137,-0.16122 -0.0201,-0.28928 -0.0201,-0.39582 0,-0.25506 0.0868,-0.52987 0.28857,-0.88583 l -1.33491,0.16793 v -0.5902 l 1.28093,0.14781 -0.21449,-1.42204 h 0.74437 l -0.21485,1.42204 1.28165,-0.14781 v 0.5902 z"
-       style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       d="m 1.7155242,292.13921 c 0.2232297,0.37723 0.3205104,0.66845 0.3205104,0.93874 0,0.11291 -0.00779,0.24862 -0.022351,0.41946 L 1.6704206,297 H 1.5287914 l -0.3428735,-3.50259 c -0.015235,-0.17084 -0.022352,-0.30655 -0.022352,-0.41946 0,-0.27029 0.096525,-0.56151 0.3208997,-0.93874 L 0,292.31718 v -0.62547 l 1.4244376,0.15665 -0.2385202,-1.50698 H 2.0136822 L 1.7747618,291.84836 3.2,291.69171 v 0.62547 z"
+       style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.38296381"
        id="path1887"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="1201.6003"
+       inkscape:export-ydpi="1201.6003" />
   </g>
 </svg>
