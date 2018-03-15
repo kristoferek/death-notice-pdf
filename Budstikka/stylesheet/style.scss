@@ -1,3 +1,4 @@
+@import './reset.css';
 @import './fonts/stylesheet.css';
 
 $border-color: #000;
@@ -5,17 +6,16 @@ $background-color: #fff;
 $text-color: #000;
 
 .container {
-  align-content: flex-start;
-  display: flex;
-  justify-content: center;
-  margin: 30px auto;
-  width: 1024px;
+  min-height: 1px;
+  width: 100%;
 }
 
 .canvas {
   background: $background-color;
   height: auto;
+  margin: 30px auto;
   max-width: 46mm;
+  min-width: 46mm;
   width: 46mm;
 }
 
@@ -35,25 +35,13 @@ $text-color: #000;
     }
   }
 
-  .death-notice-birth-at,
-  .death-notice-ceremony,
-  .death-notice-death-at,
-  .death-notice-short-obituary,
-  .death-notice-signature,
-  .death-notice-small-signature,
-  .death-notice-short-obituary,
-  .death-notice-top-text,
-  .death-notice-title {
+  .death-notice-text {
     color: $text-color;
-    font-family: 'Times LT Std';
+    font-family: 'Times New Roman';
     font-size: 9pt;
+    font-size-adjust: auto;
     line-height: 10pt;
-    padding-top: 4pt;
     text-align: center;
-  }
-
-  .death-notice-top-text {
-    padding-top: 2pt;
   }
 
   .death-notice-title {
@@ -66,23 +54,42 @@ $text-color: #000;
     font-style: italic;
   }
 
-
-  .death-notice-title,
-  .death-notice-birth-at {
-    margin-bottom: .6mm;
+  .death-notice-strong {
+    font-weight: bold;
   }
 
-  .death-notice-death-at,
-  .death-notice-signature,
-  .death-notice-small-signature,
-  .death-notice-ceremony,
-  .death-notice-short-obituary {
-    margin-bottom: 1.2mm;
+  .death-notice-normal {
+    font-style: normal;
+    font-weight: normal;
   }
 
+  .row {
+    align-items: flex-start;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-  .death-notice-small-signature {
-    font-size: 7pt;
+    .half-column {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      flex:1;
+      max-width: 21mm;
+      min-width: 10%;
+      width: auto;
+
+      &.half-column-left {
+        text-align: left;
+      }
+
+      &.half-column-right {
+        text-align: right;
+      }
+    }
   }
 
+  .pd-top {
+    padding-top: 4pt;
+  }
 }
