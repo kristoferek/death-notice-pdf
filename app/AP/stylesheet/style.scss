@@ -1,0 +1,148 @@
+@import './reset.css';
+@import './fonts/stylesheet.css';
+
+$border-color: #000;
+$background-color: #fff;
+$text-color: #000;
+$color-charity: #d91445;
+
+.container {
+  min-height: 1px;
+  width: 100%;
+
+  & * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+.canvas {
+  background: $background-color;
+  height: auto;
+  margin: 30px auto;
+  max-width: 38mm;
+  min-width: 38mm;
+  width: 38mm;
+
+}
+
+.death-notice {
+  border: .27mm solid $border-color;
+  height: auto;
+  padding: 2mm 1.3mm 1mm;
+  width: auto;
+
+  .death-notice-icon {
+    height: 7mm;
+    text-align: center;
+
+    img {
+      height: 7mm;
+      width: auto;
+    }
+  }
+
+  .death-notice-text {
+    color: $text-color;
+    font-family: 'Dow';
+    font-size: 8pt;
+    font-size-adjust: auto;
+    line-height: 9pt;
+    text-align: center;
+  }
+
+  .death-notice-title {
+    font-family: 'Helvetica';
+    font-size: 16pt;
+    line-height: 14pt;
+  }
+
+  .death-notice-short-obituary {
+    font-style: italic;
+  }
+
+  .death-notice-strong {
+    font-weight: bold;
+  }
+
+  .death-notice-small {
+    font-size: 6.5pt;
+    line-height: 7.5pt;
+  }
+
+  .death-notice-normal {
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .row {
+    align-items: flex-start;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .half-column {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      flex:1;
+      max-width: 17mm;
+      min-width: 10%;
+      width: auto;
+
+      &.half-column-left {
+        text-align: left;
+      }
+
+      &.half-column-right {
+        text-align: right;
+      }
+    }
+  }
+
+  .pd-top {
+    padding-top: 4pt;
+  }
+
+  .pd-top-small {
+    padding-top: 2pt;
+  }
+
+  &.charity {
+    border: .353mm solid $color-charity;
+    height: auto;
+    padding: 1.8mm 1.5mm 2.4mm;
+
+    .death-notice-icon {
+      height: auto;
+      text-align: center;
+      width: 100%;
+
+      img {
+        height: auto;
+        max-height: 60mm;
+        max-width: 25mm;
+        width: auto;
+      }
+    }
+
+    .death-notice-text {
+      font-family: 'Arial';
+      font-size: 8pt;
+      line-height: 9pt;
+    }
+
+    .death-notice-title {
+      font-family: 'Arial';
+      font-size: 10pt;
+      line-height: 11pt;
+    }
+
+    .death-notice-small {
+      font-size: 5pt;
+      line-height: 6.25pt;
+    }
+  }
+}
